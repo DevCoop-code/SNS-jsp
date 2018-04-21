@@ -1,0 +1,324 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+@import url(http://fonts.googleapis.com/earlyaccess/hanna.css);
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+*{
+	font-family : 'Nanum Gothic';
+}
+
+h5 {
+	font-family : 'Noto Sans KR';
+	font-size: 15px;
+}
+
+h4 {
+	font-family : 'Noto Sans KR'
+}
+
+h3 {
+	font-family : 'Hanna'	
+}
+
+h2 {
+	font-family : 'Hanna'	
+}
+
+h1 {
+	font-family : 'Hanna'	
+}
+
+ /* 테이블 관련 디자인처리*/
+ 
+ thead th {
+ 	background-color : #006DCC;
+ 	color : white;
+ 	text-align: center;
+ }
+ tr td:first-child,
+ tr th:first-child {
+ 	border-top-left-radius: 6px;
+ 	border-bottom-left-radius: 6px;
+ }
+ tr td:last-child,
+ tr th:last-child {
+ 	border-top-right-radius: 6px;
+ 	border-bottom-left-radius: 6px;
+ }
+ 
+ /*모달 팝업 디자인 처리*/
+ 
+ .vertical-alignment-helper{
+ 	display: table;
+ 	height: 100%;
+ 	width: 100%;
+ 	pointer-events: none;
+ }
+ 
+ .vertical-align-center{
+ 	display: table-cell;
+ 	vertical-align: middel;
+ 	pointer-events: none;
+ }
+ 
+ .modal-content {
+ 	width: inherit;
+ 	height: inherit;
+ 	margin: 0 auto;
+ 	pointer-events: all;
+ }
+ 
+ /*채팅창 디자인*/
+ 
+.portlet {
+    margin-bottom: 15px;
+}
+
+.btn-white {
+    border-color: #cccccc;
+    color: #333333;
+    background-color: #ffffff;
+}
+
+.portlet {
+    border: 1px solid;
+}
+
+.portlet .portlet-heading {
+    padding: 0 15px;
+}
+
+.portlet .portlet-heading h4 {
+    padding: 1px 0;
+    font-size: 16px;
+}
+
+.portlet .portlet-heading a {
+    color: #fff;
+}
+
+.portlet .portlet-heading a:hover,
+.portlet .portlet-heading a:active,
+.portlet .portlet-heading a:focus {
+    outline: none;
+}
+
+.portlet .portlet-widgets .dropdown-menu a {
+    color: #333;
+}
+
+.portlet .portlet-widgets ul.dropdown-menu {
+    min-width: 0;
+}
+
+.portlet .portlet-heading .portlet-title {
+    float: left;
+}
+
+.portlet .portlet-heading .portlet-title h4 {
+    margin: 10px 0;
+}
+
+.portlet .portlet-heading .portlet-widgets {
+    float: right;
+    margin: 8px 0;
+}
+
+.portlet .portlet-heading .portlet-widgets .tabbed-portlets {
+    display: inline;
+}
+
+.portlet .portlet-heading .portlet-widgets .divider {
+    margin: 0 5px;
+}
+
+.portlet .portlet-body {
+    padding: 15px;
+    background: #fff;
+}
+
+.portlet .portlet-footer {
+    padding: 10px 15px;
+    background: #e0e7e8;
+}
+
+.portlet .portlet-footer ul {
+    margin: 0;
+}
+
+.portlet-green,
+.portlet-green>.portlet-heading {
+    border-color: #16a085;
+}
+
+.portlet-green>.portlet-heading {
+    color: #fff;
+    background-color: #16a085;
+}
+
+.portlet-orange,
+.portlet-orange>.portlet-heading {
+    border-color: #f39c12;
+}
+
+.portlet-orange>.portlet-heading {
+    color: #fff;
+    background-color: #f39c12;
+}
+
+.portlet-blue,
+.portlet-blue>.portlet-heading {
+    border-color: #2980b9;
+}
+
+.portlet-blue>.portlet-heading {
+    color: #fff;
+    background-color: #2980b9;
+}
+
+.portlet-red,
+.portlet-red>.portlet-heading {
+    border-color: #e74c3c;
+}
+
+.portlet-red>.portlet-heading {
+    color: #fff;
+    background-color: #e74c3c;
+}
+
+.portlet-purple,
+.portlet-purple>.portlet-heading {
+    border-color: #8e44ad;
+}
+
+.portlet-purple>.portlet-heading {
+    color: #fff;
+    background-color: #8e44ad;
+}
+
+.portlet-default,
+.portlet-dark-blue,
+.portlet-default>.portlet-heading,
+.portlet-dark-blue>.portlet-heading {
+    border-color: #34495e;
+}
+
+.portlet-default>.portlet-heading,
+.portlet-dark-blue>.portlet-heading {
+    color: #fff;
+    background-color: #34495e;
+}
+
+.portlet-basic,
+.portlet-basic>.portlet-heading {
+    border-color: #333;
+}
+
+.portlet-basic>.portlet-heading {
+    border-bottom: 1px solid #333;
+    color: #333;
+    background-color: #fff;
+}
+
+@media(min-width:768px) {
+    .portlet {
+        margin-bottom: 30px;
+    }
+}
+
+.text-green {
+    color: #16a085;
+}
+
+.text-orange {
+    color: #f39c12;
+}
+
+.text-red {
+    color: #e74c3c;
+}    
+/* 전체 링크 관련 영역*/
+a {
+	color :  #000000; /*검은색*/
+	text-decoration: none; /*링크에 밑줄없게*/
+}  
+a:hover {
+	color: #bbbbbb;
+	text-decoration: none;
+	cursor: pointer; /*커서를 올렸을 때 효과*/
+}
+
+/*네비게이션 영역*/
+.navbar-default {
+	background-color : #006DCC;
+	border-color: #006DCC;
+	border-bottom-color: #dddddd;
+	border-bottom-width: 3px;
+	border-radius: 0px;
+}
+.navbar-default .navbar-brand{ /*네비게이션 제목 색상*/
+	color: #ffffff;
+	padding-top: 25px;
+	font-family: 'Hanna';
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:foucs {/*네비게이션 제목에 마우스를 올렸을 때*/
+	color: #dddddd;
+	background-color: transparent;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {/*선택된 네비게이션 마우스 색상 효과*/
+	color: #ffffff;
+	background-color: #1456b8;
+}
+.navbar-default .navbar-nav > li > a {/*네비게이션 글자 기본 폰트 변경*/
+	font-family: 'Noto Sans KR';
+	color: white;
+}
+.navbar-default .navbar-nav > .li > a:hover,
+.navbar-default .navbar-nav > .li > a:focus {/*네비게이션 글자에 마우스를 올렸을 때 색상 효과*/
+	color: #dddddd;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {/*열린 드랍다운 마우스 색상 효과*/
+	color: #006DCC;
+	text-decoration: none;
+	background-color: #ffffff;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {/*토글에 마우스를 올렸을 때 색상 효과*/
+	background-color: #145688;
+}
+.navbar-default .navbar-toggle. icon-bar { /*토글 아이콘 색상*/
+	background-color: #dddddd;
+}
+
+@media (max-width: 767px) {/*반응형 웹 : 작은 화면일 때 드랍다운에 마우스를 올렸을 때*/
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+	color: #ffffff; /*white*/
+	}
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+		color: #eeeeee;
+	}
+}
+/*네비게이션 바 길이 수정*/
+.navbar-fixed-top {
+	min-height: 70px;
+}
+.navbar-nav > li > a {
+	padding-top: 0px;
+	padding-bottom: 0px;
+	line-height: 70px;
+}
+@media (max-width: 767px;) { /*크기가 작을 때 뭉개지지 않도록*/
+	.navbar-default .navbar-brand {
+		padding-top: 15px;
+	}
+	.navbar-nav > li > a{
+		padding-top: 0px;
+		padding-bottom: 0px;
+		line-height: 40px;
+	}
+}

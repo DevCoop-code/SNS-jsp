@@ -1,0 +1,104 @@
+body
+{
+	height: 100%;
+	padding-top: 70px;
+}
+#loginForm
+{
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background-color: #eee;
+}
+.form-signin
+{
+	max-width: 330px;
+	padding: 15px;
+	margin: 0 auto;
+}
+.form-signin .form-signin-heading, .form-signin .checkbox
+{
+	margin-bottom: 10px;
+}
+.form-signin .checkbox
+{
+	font-weight: normal;
+}
+.form-signin .form-control
+{
+	position: relative;
+	height: auto;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 10px;
+	font-size: 16px;
+}
+.form-signin input[type="email"]
+{
+	margin-bottom: -1px;
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0
+}
+.form-signin input[type="password"]
+{
+	margin-bottom: 10px;
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0	
+}
+.learningintro
+{
+	margin:10px;
+}
+label, input 
+{ 
+	display:block; 
+}
+input.text 
+{ 
+	margin-bottom:12px; 
+	width:95%; 
+	padding: .
+	4em; 
+}
+fieldset 
+{ 
+	padding:0; 
+	border:0; 
+	margin-top:25px; 
+}
+h1 
+{ 
+	font-size: 1.2em; 
+	margin: .6em 0; 
+}
+div#users-contain 
+{ 
+	width: 350px; 
+	margin: 20px 0; 
+}
+div#users-contain table 
+{ 
+	margin: 1em 0; 
+	border-collapse: collapse; 
+	width: 100%; 
+}
+div#users-contain table td, div#users-contain table th 
+{ 
+	border: 1px 
+	solid #eee; 
+	padding: .6em 10px; 
+	text-align: left; 
+}
+.ui-dialog .ui-state-error 
+{ 
+	padding: .3em; 
+}
+.validateTips 
+{ 
+	border: 1px solid transparent; 
+	padding: 0.3em; 
+}
+.ui-draggable, .ui-droppable 
+{
+	background-position: top;
+}
