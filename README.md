@@ -1,6 +1,9 @@
 # Expertise-based social networking service
 Web Application using jsp
 
+![img1](./images/img1.png)
+![img2](./images/img2.png)
+
 ## Development Environment
 ### Server
 * Apache Tomcat
